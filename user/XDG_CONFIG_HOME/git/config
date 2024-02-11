@@ -1,0 +1,12 @@
+[init]
+	defaultBranch = main
+[user]
+	name = Jonathan Eyolfson
+	email = jon@eyolfson.com
+[commit]
+	gpgSign = true
+[tag]
+	gpgSign = true
+[alias]
+	lol = log --oneline --graph --decorate
+	lols = log --oneline --graph --decorate --simplify-by-decoration --all
