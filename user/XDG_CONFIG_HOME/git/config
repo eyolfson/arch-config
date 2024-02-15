@@ -10,3 +10,8 @@
 [alias]
 	lol = log --oneline --graph --decorate
 	lols = log --oneline --graph --decorate --simplify-by-decoration --all
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
