@@ -9,3 +9,5 @@ function ssh --wraps ssh
         command ssh $argv
     end
 end
+
+direnv hook fish | source
